@@ -2,7 +2,7 @@
 name = "cuda-compliance"
 version = "0.1.0"
 edition = "2021"
-description = "Policy engine — risk levels, audit trail, compliance state"
+description = "Policy engine with risk levels and audit trail"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-compliance"
 readme = "README.md"
@@ -11,3 +11,4 @@ categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
+
