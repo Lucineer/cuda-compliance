@@ -2,8 +2,12 @@
 name = "cuda-compliance"
 version = "0.1.0"
 edition = "2021"
-description = "EU AI Act compliance engine — automated policy checking, risk assessment, and audit trails for agent fleets"
+description = "Policy engine — risk levels, audit trail, compliance state"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-compliance"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
-serde_json = "1"
